@@ -8,6 +8,8 @@ Leia(RaioEsfera)
 Real RaioEsfera
 
 VolumeEsferaPi = (4 * Pi * RaioEsfera) / 3
+VolumeEsferaPi3 = (4 * 3 * RaioEsfera) / 3
+VolumeEsferaPi5 = (4 * 5 * RaioEsfera) / 3
 """
 
 #importar Bibliotecas
