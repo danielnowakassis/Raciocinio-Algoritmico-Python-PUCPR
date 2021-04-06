@@ -1,14 +1,19 @@
 """Elabore um algoritmo que leia duas cadeias de caracteres e imprima se a igualdade é falsa ou
 verdadeira.
 
+Imprima("Digite algo")
+
 Leia(Cadeia1)
+
+Imprima("Digite algo novamente")
+
 Leia(Cadeia2)
 
-Cadeias_de_caracteres Cadeia1, Cadeia2
+Cadeias de caracteres Cadeia1, Cadeia2
 
-Comparacao <- Cadeia1 = Cadeia 2
+Comparação <- Cadeia1 = Cadeia 2
 
-Imprima(Comparacao)
+Imprima(Comparação)
 """
 
 #Área de constantes e variáveis
