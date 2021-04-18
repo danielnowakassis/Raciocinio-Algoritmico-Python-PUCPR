@@ -1,4 +1,17 @@
-""" Escreva um Algoritmo que imprima os 100 primeiros números ímpares. """
+""" Escreva um Algoritmo que imprima os 100 primeiros números ímpares.
+
+Contador = 10
+
+Inteiro Contador
+
+Enquanto Contador > 0 faça
+    Leia(NúmeroUsuário)
+    Imprima(NúmeroUsuário / 2)
+    Contador = Contador - 1
+
+
+
+ """
 #corpo do código
 n = 10
 while n > 0:
