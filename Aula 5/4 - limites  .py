@@ -1,7 +1,7 @@
 """ Criar um Algoritmo que leia os limites inferior e superior de um intervalo e
 imprima todos os números impares no intervalo aberto e seu somatório. Suponha
-que os dados digitados são para um intervalo crescente, ou seja, o primeiro
-valor é menor que o segundo.
+que os dados digitados são para um intervalo decrescente, ou seja, o primeiro
+valor é maior que o segundo.
 
 # corpo do código
 Leia(limite_inferior)
