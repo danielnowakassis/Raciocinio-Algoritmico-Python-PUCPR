@@ -1,3 +1,4 @@
+
 def funcao(a, b, c):
     soma = 0
     if b > c:
@@ -8,7 +9,7 @@ def funcao(a, b, c):
             else:
                 continue
             contador_bc += 1
-    elif b < c:
+    if b < c:
         contador_cb = b
         while contador_cb < c:
             if contador_cb % a == 0:
@@ -16,9 +17,7 @@ def funcao(a, b, c):
             else:
                 continue
             contador_bc += 1
-    return soma
-
-
+    print(soma)
 
 num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
@@ -28,7 +27,7 @@ if num1 < 1:
     print("Digite um número maior que 1")
     exit(1)
 else:
-    print(funcao(num1, num2, num3))
+    funcao(num1, num2, num3)
 
 """ Escreva um Algoritmo e um App em Python que converta horas, minutos e
 segundos em segundos. A função recebe os valores das horas, minutos e
